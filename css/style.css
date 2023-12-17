@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}   
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center ;
+    padding:0px 60px;
+    position:fixed;
+}
+
+.navbar img{
+    width:150px;
+
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+   flex-wrap: wrap;   
+}
+
+.navbar ul a{
+       text-decoration:none ;
+       color: gray;
+       font-size: 20px;
+       padding-right: 20px;
+}
+
+.navbar ul a:hover{
+    color:tan;
+
+}
+
+.home{
+    background-image: url(../IMAGES/asset2.jpeg);
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+    color: white  ;
+}
+
+.home h1{
+    padding:20px 0px;
+}
+
+.home button{
+    padding:15px 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border:none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: tan;
+}
+
+.home .btn2{
+    background-color: transparent;
+    border:1px solid gray;
+}
+
+.home button:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.fixed{
+    height: 80px;
+    width: 40px;
+    background-color: white;
+    border-radius: 5px;
+    position: fixed;
+    top:50%;
+    right:0;
+}
+
+.fixed a{
+    color: gray;
+    font-size: 20px;
+    padding: 10px 5px;
+    display: block;
+
+}
+.fixed a:hover{
+    color: blue;
+}
+
+.about{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+.about img{
+    width: 45%;
+}
+
+.about .text{
+    width: 45%;
+}
+
+.about h3{
+    padding: 20px 0px;
+}
+.about p{
+    color: gray;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+.about i{
+    color: tan;
+    border:1px solid gray;
+    border-radius:50%;
+    padding: 8px;
+}
+
+.offer{
+    background-color: rgb(222, 222, 222);
+    padding:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.offer .text{
+    width:45%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.offer img{
+    width:45%;
+}
+
+.offer .text p{
+    color:gray;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.offer .text h3{
+    font-size: 30px;
+}
+.gallery{
+    padding:50px;
+    text-align: center;
+}
+.gallery p{
+    color:gray;
+    padding:15px 0px;
+}
+
+.gallery .div-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.gallery .div-content .box{
+    width: 30%;
+}
+
+.gallery .div-content .box img{
+    width: 100%;
+}
+
+.contact{
+    background-color: gainsboro;
+    padding:30px 30px 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact .text{
+    width: 40%;
+}
+
+.contact .text h2{
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.contact .text p{
+    padding-top: 20px;
+    color: gray;
+    font-size: 17px;
+}
+
+.contact .text i{
+    color: white;
+    background-color: tan;
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 20px;
+}
+
+.blog{
+    background-color: black;
+    padding:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog .box{
+    width:22%;
+}
+
+.blog h4{
+    color:white;
+}
+
+.blog p{
+    color: gray;
+    padding-top: 20px;
+}
+
+.blog i{
+    color: rgb(159, 135, 104);
+}
+.footers{
+    background-color: rgb(28, 28, 28);
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.footers p{
+    color: gray;
+    padding: 20px 0px;
+}
+
+.footers i{
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+    font-size: 20px;
+     padding: 10px;
+     margin-right: 20px;
+}
+
+.footers i:hover{
+    background-color: blue;
+    color: white;
+}
+
+.footers .fa-google:hover{
+    background-color: red;
+}
